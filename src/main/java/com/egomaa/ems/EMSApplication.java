@@ -8,9 +8,8 @@ public class EMSApplication {
 
     public static void main(String[] args) {
 
-
         SpringApplication.run(EMSApplication.class, args);
-        System.out.println("Application up and running now");
+        System.out.println("-------------------- Application up and running now ---------------- ");
     }
 
 
