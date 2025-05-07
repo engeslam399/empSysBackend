@@ -7,6 +7,10 @@ import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * DTO for {@link com.egomaa.ems.persistence.domain.Employee}
+ */
+
 @Setter
 @Getter
 public class EmployeeDto {
@@ -16,7 +20,7 @@ public class EmployeeDto {
     private String lastName;
     private String email;
     private String phone;
-    private Double employeeSalary;
+    private Double salary;
 
     private DepartmentDto department;
 
